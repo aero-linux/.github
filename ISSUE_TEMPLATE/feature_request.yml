@@ -1,0 +1,42 @@
+name: "💡 Feature Request / RFC"
+description: "Suggest an idea, architectural improvement, or new GTK3 app for Aero Linux"
+title: "[FEATURE]: "
+labels: ["enhancement", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make Aero Linux leaner, faster, or more powerful? Submit your proposal below!
+  - type: input
+    id: title-summary
+    attributes:
+      label: Feature Name
+      placeholder: e.g. eBPF Network Socket Monitor
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a problem or developer workflow gap?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution / Architecture
+      description: Detailed architectural description of how this should work from first principles.
+    validations:
+      required: true
+  - type: dropdown
+    id: target-milestone
+    attributes:
+      label: Target Roadmap Milestone
+      options:
+        - "v1.5-Pulsar (eBPF & MicroVMs)"
+        - "v1.6-Quasar (Multi-Agent Swarm & Btrfs)"
+        - "v1.7-Hyperion (linux-aero BORE Kernel)"
+        - "v2.0-Singularity (Rust aero-wm)"
+        - "General Developer OS Enhancement"
+    validations:
+      required: true
