@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0b0e,100:00f2fe&height=230&section=header&text=Aero%20Linux%20Project&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=The%20Ultra-Lean%20AI%20%26%20High-Performance%20Developer%20Linux%20Distribution&descAlignY=62&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0b0e,100:00f2fe&height=230&section=header&text=Aero%20Linux%20Project&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=The%20Ultra-Lean%20AI%20and%20High-Performance%20Developer%20Linux%20Distribution&descAlignY=62&descAlign=50" width="100%"/>
 
 <a href="https://github.com/ronitgupta138/aero-linux">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1200&color=00F2FE&center=true&vCenter=true&multiline=false&width=850&height=50&lines=Sub-350MB+Idle+Footprint+%E2%80%A2+Dynamic+zRAM+Compression;45+Native+Zero-Terminal+GTK3+Developer+Applications;High-Performance+AI+Runtime+%26+Local+LLM+Acceleration;Debian+Package+Ecosystem+%26+Automated+Build+Pipelines" alt="Aero Linux Typing Banner" />
