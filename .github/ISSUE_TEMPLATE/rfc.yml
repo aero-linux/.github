@@ -1,0 +1,39 @@
+name: "💡 Architecture & Systems RFC"
+description: Propose an architectural improvement, kernel optimization, or new desktop system tool
+title: "[RFC]: "
+labels: ["rfc", "architecture"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a Request for Comments (RFC) for the **Aero Linux Project**.
+        Please provide a structured technical breakdown of your proposed architectural design.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / Executive Overview
+      description: A concise explanation of the proposed feature, system tool, or architectural refactor.
+      placeholder: "e.g., Implementing eBPF network socket tracing for real-time per-PID bandwidth metrics..."
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation & Problem Statement
+      description: Why is this needed? What bottleneck or limitation in existing Linux desktop distros does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: specification
+    attributes:
+      label: Detailed Technical Specification
+      description: Proposed interfaces, kernel hooks, GTK3 GUI components, or data structures.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered & Performance Trade-offs
+      description: What other approaches were evaluated? How does this keep memory footprint sub-350MB?
+    validations:
+      required: false
